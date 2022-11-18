@@ -12,6 +12,6 @@ Author: Osipova Valeriya Vladimirovna
 
 Lab: Lab1
 
-Date of create: -
+Date of create: 23.09.2022
 
 Date of finished: -
