@@ -16,7 +16,7 @@ Lab: Lab1
 
 Date of create: 23.09.2022
 
-Date of finished: -
+Date of finished: 01.12.2022
 
 ### Цель работы
 
