@@ -24,7 +24,7 @@ Date of finished: -
 
 ### Ход работы
 
-1. Текст файла .yaml для развертывания сети.
+1. Текст файла lab.clab.yaml для развертывания сети.
 ```
 name: lab1
 
@@ -72,3 +72,7 @@ topology:
     - endpoints: ["SW02.02.TEST:eth2", "PC2:eth1"]
     
 ```
+
+2. Разворачиваем сеть с помощью 
+```clab deploy```
+![image](https://user-images.githubusercontent.com/64967406/205115297-31237790-bc71-46bd-aafe-7e580acee082.png)
