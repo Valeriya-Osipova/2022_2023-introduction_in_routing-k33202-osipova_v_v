@@ -90,3 +90,6 @@ topology:
 \
 ![image](https://user-images.githubusercontent.com/64967406/205117615-62dea737-8169-481b-9a5d-6bc79ba45708.png)
 ![image](https://user-images.githubusercontent.com/64967406/205117662-f2e14983-eada-40d3-a91e-d47b967cdc08.png)
+
+#### 5. Вывод
+В ходе лабораторной работы 1 был изучен процесс разворачивания сети, состоящей из роутера, трёх коммутаторов и двух компьютеров. Были настроены VLAN'ы и DHCP сервера.
