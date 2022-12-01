@@ -73,16 +73,15 @@ topology:
     
 ```
 
-#### 2. Разворачиваем сеть с помощью
-```clab deploy``` \\
+#### 2. Разворачиваем сеть с помощью ```clab deploy``` \
 ![image](https://user-images.githubusercontent.com/64967406/205115297-31237790-bc71-46bd-aafe-7e580acee082.png)
 
-#### 3. Текст конфигаций для кажного сетевого устройства \\
-- Роутер R01.TEST
+#### 3. Текст конфигаций для кажного сетевого устройства \
+- Роутер R01.TEST \
 ![image](https://user-images.githubusercontent.com/64967406/205116286-23fa603f-361b-4567-a902-7269f43d1944.png)
-- Коммутатор SW01.01.TEST
+- Коммутатор SW01.01.TEST \
 ![image](https://user-images.githubusercontent.com/64967406/205116556-e5019ec7-f2f3-4029-bb5e-cb5bc7f63514.png)
-- Коммутатор SW02.01.TEST
+- Коммутатор SW02.01.TEST \
 ![image](https://user-images.githubusercontent.com/64967406/205116740-fa80fbfd-76a8-4dca-ba66-e5e81417475f.png)
-- Коммутатор SW02.02.TEST
+- Коммутатор SW02.02.TEST \
 ![image](https://user-images.githubusercontent.com/64967406/205116830-6316114c-c3ba-46b8-8a9f-b288d0340e35.png)
