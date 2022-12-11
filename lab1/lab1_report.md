@@ -29,48 +29,48 @@ Date of finished: 01.12.2022
 name: lab1
 
 mgmt:
-  network: statics
-  ipv4_subnet: 172.20.20.0/24
+  network: LeraNet
+  ipv4_subnet: 192.10.10.0/24
 
 topology:
   nodes:
     R01.TEST:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.20.2
+      mgmt_ipv4: 192.10.10.2
 
-    SW01.L3.01.TEST:
+    SW01.01.TEST:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.20.3
+      mgmt_ipv4: 192.10.10.3
 
-    SW02.L3.01.TEST:
+    SW02.01.TEST:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.20.4
+      mgmt_ipv4: 192.10.10.4
 
-    SW02.L3.02.TEST:
+    SW02.02.TEST:
       kind: vr-ros
       image: vrnetlab/vr-routeros:6.47.9
-      mgmt_ipv4: 172.20.20.5
+      mgmt_ipv4: 192.10.10.5
 
     PC1:
       kind: linux
       image: ubuntu:latest
-      mgmt_ipv4: 172.20.20.6
+      mgmt_ipv4: 192.10.10.6
 
     PC2:
       kind: linux
       image: ubuntu:latest
-      mgmt_ipv4: 172.20.20.7
+      mgmt_ipv4: 192.10.10.7
 
-  links: 
+  links:
     - endpoints: ["R01.TEST:eth1", "SW01.01.TEST:eth1"]
     - endpoints: ["SW01.01.TEST:eth2", "SW02.01.TEST:eth1"]
     - endpoints: ["SW01.01.TEST:eth3", "SW02.02.TEST:eth1"]
     - endpoints: ["SW02.01.TEST:eth2", "PC1:eth1"]
     - endpoints: ["SW02.02.TEST:eth2", "PC2:eth1"]
-    
+
 ```
 
 #### 2. Разворачиваем сеть с помощью ```clab deploy``` 
