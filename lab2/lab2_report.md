@@ -12,7 +12,7 @@ Group: K33202
 
 Author: Osipova Valeriya Vladimirovna
 
-Lab: Lab1
+Lab: Lab2
 
 Date of create: 10.12.2022
 
