@@ -23,7 +23,7 @@ Date of finished: 00.12.2022
 
 ### Ход работы
 #### 1. В файте топологии сети ```lab2.clab.yaml``` пропишем ноды у устройств.
-Содаржимое файла: 
+Содержимое файла: 
 ```
 name: lab2
 
@@ -91,7 +91,11 @@ topology:
 - PC3: \
 ![image](https://user-images.githubusercontent.com/64967406/207665682-d1bbf98b-609d-4112-97da-3989ea87c45c.png)
 
-#### 4. Проврека локальной связанности
+#### 4. Схема сети
+
+![image](../lab2-scheme.jpg)
+
+#### 5. Проврека локальной связанности
 ![image](https://user-images.githubusercontent.com/64967406/207666410-0e9559f4-6beb-4828-a0e0-ad3d99b30a58.png)
 ![image](https://user-images.githubusercontent.com/64967406/207671229-eadc90b7-9cde-4b98-b0dc-d327ada603b8.png)
 
