@@ -77,7 +77,7 @@ topology:
 ![image](https://user-images.githubusercontent.com/64967406/207663055-5ca41518-f135-47f5-b83e-dd6c8bb1a8df.png)
 
 #### 3. Прописываем параметры каждому устройству
-Текст конфигураций сетевых устройств: \
+Текст конфигураций сетевых устройств: 
 - Роутер R01.MSK: \
 ![image](https://user-images.githubusercontent.com/64967406/207665333-30d27e36-522a-4606-ba1c-d3b3596f45c4.png)
 - Роутер R01.FRT: \
@@ -92,3 +92,4 @@ topology:
 ![image](https://user-images.githubusercontent.com/64967406/207665682-d1bbf98b-609d-4112-97da-3989ea87c45c.png)
 
 #### 4. Проврека локальной связанности
+![image](https://user-images.githubusercontent.com/64967406/207666158-178b5d58-6064-4a2f-a8ed-f06b7a581f7f.png)
