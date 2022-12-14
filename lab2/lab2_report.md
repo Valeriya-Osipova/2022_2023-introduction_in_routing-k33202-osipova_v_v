@@ -93,7 +93,7 @@ topology:
 
 #### 4. Схема сети
 
-![image](../lab2-scheme.jpg)
+![image](./lab2-scheme.jpg)
 
 #### 5. Проврека локальной связанности
 ![image](https://user-images.githubusercontent.com/64967406/207666410-0e9559f4-6beb-4828-a0e0-ad3d99b30a58.png)
