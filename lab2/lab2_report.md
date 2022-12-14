@@ -93,3 +93,4 @@ topology:
 
 #### 4. Проврека локальной связанности
 ![image](https://user-images.githubusercontent.com/64967406/207666410-0e9559f4-6beb-4828-a0e0-ad3d99b30a58.png)
+![image](https://user-images.githubusercontent.com/64967406/207669057-eaf7766c-6f8b-48a9-a34a-74ceffb05d59.png)
