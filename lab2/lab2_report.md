@@ -99,7 +99,7 @@ topology:
 ![image](https://user-images.githubusercontent.com/64967406/207947202-ce4c4a9e-5253-4286-8755-c36d13c3f43c.png)
 ![image](https://user-images.githubusercontent.com/64967406/207947847-76792b1b-c401-4037-848f-af9987b28544.png)
 
-![image](https://user-images.githubusercontent.com/64967406/207948257-94f3f1e0-02e9-42e6-96d5-8ec7e6bd55d7.png)
+![image](https://user-images.githubusercontent.com/64967406/207949208-1fdd6a08-c305-497d-8763-cdd5887d7651.png)
 
 #### 6. Вывод
 В процессе денной лабораторной работы удалось ознакомиться с принципами планирования IP адресов, настройки статической маршрутизации и сетевыми функциями устройств. Была построена сеть связи в трех геораспределенных офисах "RogaIKopita Games".
