@@ -96,10 +96,10 @@ topology:
 ![image](./lab2-scheme.jpg)
 
 #### 5. Проврека локальной связанности
-![image](https://user-images.githubusercontent.com/64967406/207666410-0e9559f4-6beb-4828-a0e0-ad3d99b30a58.png)
-![image](https://user-images.githubusercontent.com/64967406/207671229-eadc90b7-9cde-4b98-b0dc-d327ada603b8.png)
+![image](https://user-images.githubusercontent.com/64967406/207947202-ce4c4a9e-5253-4286-8755-c36d13c3f43c.png)
+![image](https://user-images.githubusercontent.com/64967406/207947847-76792b1b-c401-4037-848f-af9987b28544.png)
 
-![image](https://user-images.githubusercontent.com/64967406/207669057-eaf7766c-6f8b-48a9-a34a-74ceffb05d59.png)
+![image](https://user-images.githubusercontent.com/64967406/207948257-94f3f1e0-02e9-42e6-96d5-8ec7e6bd55d7.png)
 
 #### 6. Вывод
 В процессе денной лабораторной работы удалось ознакомиться с принципами планирования IP адресов, настройки статической маршрутизации и сетевыми функциями устройств. Была построена сеть связи в трех геораспределенных офисах "RogaIKopita Games".
