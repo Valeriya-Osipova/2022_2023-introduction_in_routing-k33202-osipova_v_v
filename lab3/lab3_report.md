@@ -128,5 +128,8 @@ topology:
 #### 6. Схема сети
 
 #### 7. Проверка пинга ПК и сервера
+![image](https://user-images.githubusercontent.com/64967406/208754908-09103fb4-8a9b-4ea3-929f-881134c80155.png)
+![image](https://user-images.githubusercontent.com/64967406/208754943-c550ca3b-964f-4499-8f3c-7c893f004ad5.png)
 
 #### 8. Вывод
+В результате выполения данной лабораторной работы были изучены протоколы OSPF и MPLS, а также механизмы организации EoMPLS.
