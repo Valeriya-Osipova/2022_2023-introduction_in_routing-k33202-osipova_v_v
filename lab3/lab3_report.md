@@ -126,7 +126,7 @@ topology:
 ![image](https://user-images.githubusercontent.com/64967406/208749822-4550cd53-e49c-46a3-9816-8afd21119230.png)
 
 #### 6. Схема сети
-
+![image](./lab3-scheme.jpg)
 #### 7. Проверка пинга ПК и сервера
 ![image](https://user-images.githubusercontent.com/64967406/208754908-09103fb4-8a9b-4ea3-929f-881134c80155.png)
 ![image](https://user-images.githubusercontent.com/64967406/208754943-c550ca3b-964f-4499-8f3c-7c893f004ad5.png)
