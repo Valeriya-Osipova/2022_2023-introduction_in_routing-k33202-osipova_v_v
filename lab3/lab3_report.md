@@ -14,9 +14,9 @@ Author: Osipova Valeriya Vladimirovna
 
 Lab: Lab3
 
-Date of create: 18.12.2022
+Date of create: 17.12.2022
 
-Date of finished: ХХ.12.2022
+Date of finished: 21.12.2022
 
 ### Цель работы
 Изучить протоколы OSPF и MPLS, механизмы организации EoMPLS.
