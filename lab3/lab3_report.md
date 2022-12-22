@@ -66,15 +66,15 @@ topology:
             image: vrnetlab/vr-routeros:6.47.9
             mgmt_ipv4: 192.30.31.18
     links:
-        - endpoints: ["R01.NY:eth1", "SGI_Prism:eth1"]
-        - endpoints: ["R01.NY:eth2", "R01.LND:eth1"]
-        - endpoints: ["R01.NY:eth3", "R01.LBN:eth1"]
-        - endpoints: ["R01.LND:eth2", "R01.HKI:eth1"]
-        - endpoints: ["R01.LBN:eth2", "R01.MSK:eth1"]
-        - endpoints: ["R01.LBN:eth3", "R01.HKI:eth3"]
-        - endpoints: ["R01.HKI:eth2", "R01.SPB:eth2"]
-        - endpoints: ["R01.MSK:eth2", "R01.SPB:eth1"]
-        - endpoints: ["R01.SPB:eth3", "PC1:eth1"]
+        - endpoints: ["R01.NY:eth2", "SGI_Prism:eth2"]
+        - endpoints: ["R01.NY:eth3", "R01.LND:eth2"]
+        - endpoints: ["R01.NY:eth4", "R01.LBN:eth2"]
+        - endpoints: ["R01.LND:eth3", "R01.HKI:eth2"]
+        - endpoints: ["R01.LBN:eth3", "R01.MSK:eth2"]
+        - endpoints: ["R01.LBN:eth4", "R01.HKI:eth4"]
+        - endpoints: ["R01.HKI:eth3", "R01.SPB:eth3"]
+        - endpoints: ["R01.MSK:eth3", "R01.SPB:eth2"]
+        - endpoints: ["R01.SPB:eth4", "PC1:eth2"]
 ```
 
 #### 2. Разворачиваем контейнер 
