@@ -355,3 +355,74 @@ add disabled=no interface=ether1
 /system identity
 set name=PC3
 ```
+
+## Вторая часть:
+
+Разбираем VRF на 3 роутерах.
+Настраиваем VPLS на 3 роутерах.
+Настраиваем IP адресацию на PC1,2,3 в одной сети.
+Проверяем связность.
+
+#### 1. Измененные кнфигурации сетевых устройств R01.SPB R01.NY R01.SVL PC1 PC2 PC3
+- Роутер R01.SPB
+```
+/interface bridge
+add name=VPLSb
+/interface vpls
+add disabled=no l2mtu=1500 mac-address=02:39:C2:02:4A:28 name=VPLS1 \
+    remote-peer=5.5.5.5 vpls-id=10:0
+add disabled=no l2mtu=1500 mac-address=02:07:2A:3D:7A:3F name=VPLS2 \
+    remote-peer=6.6.6.6 vpls-id=10:0
+/interface bridge port
+add bridge=VPLSb interface=ether2
+add bridge=VPLSb interface=VPLS1
+add bridge=VPLSb interface=VPLS2
+```
+
+- Роутер R01.NY
+```
+/interface bridge
+add name=VPLSb
+/interface vpls
+add disabled=no l2mtu=1500 mac-address=02:74:E7:AB:72:59 name=VPLS1 \
+    remote-peer=1.1.1.1 vpls-id=10:0
+add disabled=no l2mtu=1500 mac-address=02:16:82:73:0D:BE name=VPLS3 \
+    remote-peer=6.6.6.6 vpls-id=10:0
+/interface bridge port
+add bridge=VPLSb interface=ether3
+add bridge=VPLSb interface=VPLS1
+add bridge=VPLSb interface=VPLS3
+```
+
+- Роутер R01.SVL
+```
+/interface bridge
+add name=VPLSb
+/interface vpls
+add disabled=no l2mtu=1500 mac-address=02:38:4E:AE:2D:A8 name=VPLS2 \
+    remote-peer=1.1.1.1 vpls-id=10:0
+add disabled=no l2mtu=1500 mac-address=02:B2:40:AD:5D:2B name=VPLS3 \
+    remote-peer=5.5.5.5 vpls-id=10:0
+/interface bridge port
+add bridge=VPLSb interface=ether3
+add bridge=VPLSb interface=VPLS2
+add bridge=VPLSb interface=VPLS3
+```
+
+- PC1
+```
+/ip address
+add address=192.168.0.1/24 interface=ether2 network=192.168.0.0
+```
+
+- PC2
+```
+/ip address
+add address=192.168.0.2/24 interface=ether2 network=192.168.0.0
+```
+
+- PC3
+```
+/ip address
+add address=192.168.0.3/24 interface=ether2 network=192.168.0.0
+```
