@@ -437,3 +437,4 @@ add address=192.168.0.2/24 interface=ether2 network=192.168.0.0
 /ip address
 add address=192.168.0.3/24 interface=ether2 network=192.168.0.0
 ```
+#### 2. Проверка связности VPLS
