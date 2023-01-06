@@ -138,3 +138,12 @@ add area=backbone
 /system identity
 set name=R01.SPB
 ```
+- Роутер R01.HKI:
+
+- Роутер R01.LBN:
+
+- Роутер R01.LND:
+    
+- Роутер R01.NY:
+
+- Роутер R01.SVL:
