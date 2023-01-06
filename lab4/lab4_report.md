@@ -14,7 +14,7 @@ Author: Osipova Valeriya Vladimirovna
 
 Lab: Lab4
 
-Date of create: хх.12.2022
+Date of create: 29.12.2022
 
 Date of finished: хх.12.2022
 
