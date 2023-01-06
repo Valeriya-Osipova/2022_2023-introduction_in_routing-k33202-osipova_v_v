@@ -91,5 +91,50 @@ topology:
 #### 2. Разворачиваем контейнер 
 ![image](https://user-images.githubusercontent.com/64967406/211038808-661d53c3-11d0-49b1-b46b-2820da270568.png)
 
-#### 3. Прописываем параметры каждому устройству
+## Первая часть:
+
+Настраимаем iBGP RR Cluster.
+Настраимаем VRF на 3 роутерах.
+Настраимаем RD и RT на 3 роутерах.
+Настраимаем IP адреса в VRF.
+Проверяем связность между VRF
+Настраимаем имена устройств, сменить логины и пароли.
+
+#### 1. Прописываем параметры каждому устройству
 Текст конфигураций сетевых устройств:
+- Роутер R01.SPB
+```
+/interface bridge
+add name=Lo0
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
+/routing bgp instance
+set default router-id=1.1.1.1
+/routing ospf instance
+set [ find default=yes ] router-id=1.1.1.1
+/ip address
+add address=192.168.10.1/24 interface=ether2 network=192.168.10.0
+add address=10.0.1.1/30 interface=ether3 network=10.0.1.0
+add address=1.1.1.1 interface=Lo0 network=1.1.1.1
+/ip dhcp-client
+add disabled=no interface=ether1
+add disabled=no interface=ether2
+add disabled=no interface=ether3
+/ip route vrf
+add export-route-targets=65530:777 import-route-targets=65530:777 interfaces=\
+    ether2 route-distinguisher=65530:777 routing-mark=VRF_DEVOPS
+/mpls ldp
+set enabled=yes transport-address=1.1.1.1
+/mpls ldp interface
+add interface=ether2
+add interface=ether3
+/routing bgp instance vrf
+add redistribute-connected=yes routing-mark=VRF_DEVOPS
+/routing bgp peer
+add address-families=ip,l2vpn,l2vpn-cisco,vpnv4 name=peer1 remote-address=\
+    2.2.2.2 remote-as=65530 update-source=Lo0
+/routing ospf network
+add area=backbone
+/system identity
+set name=R01.SPB
+```
