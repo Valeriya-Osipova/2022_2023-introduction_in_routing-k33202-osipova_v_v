@@ -355,6 +355,11 @@ add disabled=no interface=ether1
 /system identity
 set name=PC3
 ```
+#### 2. Проверка связности VRF
+![image](https://user-images.githubusercontent.com/64967406/211060983-a521122e-7ec2-4f30-b26b-522067cc9626.png)
+![image](https://user-images.githubusercontent.com/64967406/211061082-22d4dfb6-6065-47e5-93f1-a8fcc89b4ad9.png)
+![image](https://user-images.githubusercontent.com/64967406/211061354-3c3b1907-7c2e-47b4-9816-f78cc66eb35b.png)
+Состояние Established
 
 ## Вторая часть:
 
