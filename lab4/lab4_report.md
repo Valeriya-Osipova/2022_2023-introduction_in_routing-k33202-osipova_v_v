@@ -362,10 +362,10 @@ set name=PC3
 Состояние Established
 
 #### 3. Проверка пингов VRF_DEVOPS
-SPB
-![image](https://user-images.githubusercontent.com/64967406/211065129-0347bfe5-a1c9-441c-8ec9-622a2f714099.png)
-
-
+SPB \
+![image](https://user-images.githubusercontent.com/64967406/211065404-0b642641-8b3e-4235-938d-3b39d23d483c.png)
+NY \
+![image](https://user-images.githubusercontent.com/64967406/211069942-c41270d6-3d27-4f59-adf1-ab82de4371f6.png)
 
 ## Вторая часть:
 
