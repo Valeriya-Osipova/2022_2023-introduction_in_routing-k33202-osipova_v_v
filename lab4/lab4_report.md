@@ -361,6 +361,12 @@ set name=PC3
 ![image](https://user-images.githubusercontent.com/64967406/211061354-3c3b1907-7c2e-47b4-9816-f78cc66eb35b.png)
 Состояние Established
 
+#### 3. Проверка пингов VRF_DEVOPS
+SPB
+![image](https://user-images.githubusercontent.com/64967406/211065129-0347bfe5-a1c9-441c-8ec9-622a2f714099.png)
+
+
+
 ## Вторая часть:
 
 Разбираем VRF на 3 роутерах.
