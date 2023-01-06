@@ -98,9 +98,12 @@ topology:
 Настраимаем RD и RT на 3 роутерах.\
 Настраимаем IP адреса в VRF.\
 Проверяем связность между VRF\
-Настраимаем имена устройств, сменить логины и пароли.\
+Настраимаем имена устройств, сменить логины и пароли.
 
-#### 1. Прописываем параметры каждому устройству
+#### 1. Схема сети первой части
+![image](../scheme1.jpg)
+
+#### 2. Прописываем параметры каждому устройству
 Текст конфигураций сетевых устройств:
 - Роутер R01.SPB
 ```
@@ -355,13 +358,13 @@ add disabled=no interface=ether1
 /system identity
 set name=PC3
 ```
-#### 2. Проверка связности VRF
+#### 3. Проверка связности VRF
 ![image](https://user-images.githubusercontent.com/64967406/211060983-a521122e-7ec2-4f30-b26b-522067cc9626.png)
 ![image](https://user-images.githubusercontent.com/64967406/211061082-22d4dfb6-6065-47e5-93f1-a8fcc89b4ad9.png)
 ![image](https://user-images.githubusercontent.com/64967406/211061354-3c3b1907-7c2e-47b4-9816-f78cc66eb35b.png)
 Состояние Established
 
-#### 3. Проверка пингов VRF_DEVOPS
+#### 4. Проверка пингов VRF_DEVOPS
 SPB \
 ![image](https://user-images.githubusercontent.com/64967406/211065404-0b642641-8b3e-4235-938d-3b39d23d483c.png) \
 NY \
@@ -372,9 +375,13 @@ NY \
 Разбираем VRF на 3 роутерах.\
 Настраиваем VPLS на 3 роутерах.\
 Настраиваем IP адресацию на PC1,2,3 в одной сети.\
-Проверяем связность.\
+Проверяем связность.
 
-#### 1. Измененные кнфигурации сетевых устройств R01.SPB R01.NY R01.SVL PC1 PC2 PC3
+
+#### 1. Схема сети первой части
+![image](../scheme2.jpg)
+
+#### 2. Измененные кнфигурации сетевых устройств R01.SPB R01.NY R01.SVL PC1 PC2 PC3
 - Роутер R01.SPB
 ```
 /interface bridge
@@ -437,4 +444,4 @@ add address=192.168.0.2/24 interface=ether2 network=192.168.0.0
 /ip address
 add address=192.168.0.3/24 interface=ether2 network=192.168.0.0
 ```
-#### 2. Проверка связности VPLS
+#### 3. Проверка связности VPLS
