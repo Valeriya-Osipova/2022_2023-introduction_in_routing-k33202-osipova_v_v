@@ -16,7 +16,7 @@ Lab: Lab4
 
 Date of create: 29.12.2022
 
-Date of finished: хх.12.2022
+Date of finished: 07.01.2023
 
 ### Цель работы
 Изучить протоколы BGP, MPLS и правила организации L3VPN и VPLS.
